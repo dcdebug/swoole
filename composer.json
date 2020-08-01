@@ -1,0 +1,20 @@
+{
+  "name": "dc/self-swoole",
+  "description": "six framework",
+  "keywords": [
+    "php",
+    "swoole",
+    "sixStar"
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "application/",
+      "Dc\\":"framework/Dc"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0",
+    "doctrine/annotations": "1.8.0"
+  }
+}
